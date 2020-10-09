@@ -1,23 +1,47 @@
 @font-face {
-  font-family: 'OpenSans';
+  font-family: 'Cyntho Next';
   font-style:  normal;
   font-weight: 300;
-  src: url("./fonts/OpenSans-Light.woff2") format("woff2"),
-       url("./fonts/OpenSans-Light.woff") format("woff");
+  src: url("./fonts/CynthoNext-Light.woff2") format("woff2"),
+       url("./fonts/CynthoNext-Light.woff") format("woff");
 }
 
 @font-face {
-  font-family: 'OpenSans';
+  font-family: 'Cyntho Next';
   font-style:  normal;
   font-weight: 400;
-  src: url("./fonts/OpenSans-Regular.woff2") format("woff2"),
-       url("./fonts/OpenSans-Regular.woff") format("woff");
+  src: url("./fonts/CynthoNext-Regular.woff2") format("woff2"),
+       url("./fonts/CynthoNext-Regular.woff") format("woff");
 }
 
 @font-face {
-  font-family: 'Lato';
+  font-family: 'Cyntho Next';
+  font-style:  normal;
+  font-weight: 500;
+  src: url("./fonts/CynthoNext-Medium.woff2") format("woff2"),
+       url("./fonts/CynthoNext-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Cyntho Next';
+  font-style:  normal;
+  font-weight: 600;
+  src: url("./fonts/CynthoNext-SemiBold.woff2") format("woff2"),
+       url("./fonts/CynthoNext-SemiBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Cyntho Next';
   font-style:  normal;
   font-weight: 700;
-  src: url("./fonts/Lato-Bold.woff2") format("woff2"),
-       url("./fonts/Lato-Bold.woff") format("woff");
+  src: url("./fonts/CynthoNext-Bold.woff2") format("woff2"),
+       url("./fonts/CynthoNext-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Cyntho Next';
+  font-style:  normal;
+  font-weight: 800;
+  src: url("./fonts/CynthoNext-ExtraBold.woff2") format("woff2"),
+       url("./fonts/CynthoNext-ExtraBold.woff") format("woff");
 }
