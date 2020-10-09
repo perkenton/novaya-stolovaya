@@ -1,1 +1,6 @@
-.banner {}
+@import url(./__subtitle/banner__subtitle.css);
+@import url(./__title/banner__title.css);
+
+.banner {
+
+}

@@ -1,1 +1,11 @@
-.comments {}
+@import url(./__card/comments__card.css);
+@import url(./__card-author/comments__card-author.css);
+@import url(./__card-rating/comments__card-rating.css);
+@import url(./__card-rating-item/comments__card-rating-item.css);
+@import url(./__card-rating-item/_color/comments__card-rating-item_color.css);
+@import url(./__card-rating-item/_grey/comments__card-rating-item_grey.css);
+@import url(./__card-text/comments__card-text.css);
+
+.comments {
+
+}

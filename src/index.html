@@ -16,16 +16,16 @@
     <header class="header">
 
       <div class="header__contacts">
-        <p class="header__contacts-phone"></p>
-        <img src="" alt="" class="header__contacts-social-icon">
-        <a href="" class="header__contacts-search"></a>
-        <a href="" class="header__contacts-personal-area"></a>
-        <a href="" class="header__contacts-basket"></a>
+        <a href="tel:+375333750760" class="header__contacts-phone">+375 (33) 375-07-60</a>
+        <a href="" class="header__contacts-link"><img src="<%=require('./images/icon-instagram.svg').default%>" alt="Логотип инстаграма" class="header__contacts-icon header__contacts-icon_transparent"></a>
+        <a href="" class="header__contacts-link"><img src="<%=require('./images/icon-search.svg').default%>" alt="Иконка поиска" class="header__contacts-icon header__contacts-icon_pink-light"></a>
+        <a href="" class="header__contacts-link"><img src="<%=require('./images/icon-user.svg').default%>" alt="Иконка личного кабинета" class="header__contacts-icon header__contacts-icon_pink"></a>
+        <a href="" class="header__contacts-link"><img src="<%=require('./images/icon-cart.svg').default%>" alt="Иконка корзины" class="header__contacts-icon header__contacts-icon_pink-dark"></a>
       </div>
 
       <nav class="header__nav">
         <div class="header__logo">
-          <img src="" alt="" class="header__logo-image">
+          <img src="<%=require('./images/logo-black.svg').default%>" alt="Логотип Новой столовой" class="header__logo-image">
           <h1 class="header__logo-title">Новая столовая</h1>
         </div>
 
@@ -33,12 +33,12 @@
         <label for="checkbox" class="header__mobile-menu-button"><span class="header__mobile-menu-icon"></span></label>
 
         <ul class="header__menu">
-          <li class="header__menu-item"><a href="" class="header__menu-link header__menu-link_submenu"></a></li>
-          <li class="header__menu-item"><a href="" class="header__menu-link header__menu-link_submenu"></a></li>
-          <li class="header__menu-item"><a href="" class="header__menu-link"></a></li>
-          <li class="header__menu-item"><a href="" class="header__menu-link"></a></li>
-          <li class="header__menu-item"><a href="" class="header__menu-link"></a></li>
-          <li class="header__menu-item"><a href="" class="header__menu-link"></a></li>
+          <li class="header__menu-item"><a href="" class="header__menu-link header__menu-link_submenu">Меню</a></li>
+          <li class="header__menu-item"><a href="" class="header__menu-link header__menu-link_submenu">Магазин</a></li>
+          <li class="header__menu-item"><a href="" class="header__menu-link">Подписка</a></li>
+          <li class="header__menu-item"><a href="" class="header__menu-link">Доставка</a></li>
+          <li class="header__menu-item"><a href="" class="header__menu-link">Партнерам</a></li>
+          <li class="header__menu-item"><a href="" class="header__menu-link">Контакты</a></li>
         </ul>
       </nav>
     </header>
@@ -53,42 +53,44 @@
       <h2 class="title"></h2>
       <p class="title__subtitle"></p>
 
-      <div class="swiper__container">
+      <div class="swiper">
+        <div class="swiper__container">
 
-        <ul class="swiper__nav">
-          <li class="swiper__nav-item swiper__nav-item_is-active"></li>
-          <li class="swiper__nav-item"></li>
-          <li class="swiper__nav-item"></li>
-          <li class="swiper__nav-item"></li>
-          <li class="swiper__nav-item"></li>
-          <li class="swiper__nav-item"></li>
-          <li class="swiper__nav-item"></li>
-        </ul>
+          <ul class="swiper__nav">
+            <li class="swiper__nav-item swiper__nav-item_is-active"></li>
+            <li class="swiper__nav-item"></li>
+            <li class="swiper__nav-item"></li>
+            <li class="swiper__nav-item"></li>
+            <li class="swiper__nav-item"></li>
+            <li class="swiper__nav-item"></li>
+            <li class="swiper__nav-item"></li>
+          </ul>
 
-        <div class="swiper__arrow-next"></div>
-        <div class="swiper__arrow-prev"></div>
+          <div class="swiper__arrow-next"></div>
+          <div class="swiper__arrow-prev"></div>
 
-        <div class="swiper__wrapper">
+          <div class="swiper__wrapper">
 
-          <div class="card">
-            <div class="card__image"></div>
-            <p class="card__title"></p>
-            <div class="card__price-block">
-              <p class="card__weight"></p>
-              <p class="card__cost"></p>
-            </div>
-            <div class="card__order-block">
-              <div class="card__quantity-block">
-                <img src="" alt="" class="card__minus">
-                  <p class="card__quantity"></p>
-                <img src="" alt="" class="card__plus">
+            <div class="card">
+              <div class="card__image"></div>
+              <p class="card__title"></p>
+              <div class="card__price-block">
+                <p class="card__weight"></p>
+                <p class="card__cost"></p>
               </div>
-              <button class="card__button"></button>
+              <div class="card__order-block">
+                <div class="card__quantity-block">
+                  <img src="" alt="" class="card__minus">
+                    <p class="card__quantity"></p>
+                  <img src="" alt="" class="card__plus">
+                </div>
+                <button class="card__button"></button>
+              </div>
             </div>
+
           </div>
 
         </div>
-
       </div>
     </section>
 

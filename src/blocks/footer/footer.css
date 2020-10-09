@@ -1,1 +1,10 @@
+@import url(./__contacts/footer__contacts.css);
+@import url(./__contacts-block-left/footer__contacts-block-left.css);
+@import url(./__contacts-block-right/footer__contacts-block-right.css);
+@import url(./__logo/footer__logo.css);
+@import url(./__menu/footer__menu.css);
+@import url(./__menu-item/footer__menu-item.css);
+@import url(./__menu-link/footer__menu-link.css);
+@import url(./__social-icon/footer__social-icon.css);
+
 .footer {}

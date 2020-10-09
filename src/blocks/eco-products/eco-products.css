@@ -1,1 +1,5 @@
-.eco-products {}
+@import url(./__cards-list/eco-products__cards-list.css);
+
+.eco-products {
+
+}

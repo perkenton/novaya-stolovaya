@@ -1,1 +1,22 @@
-.header {}
+@import url(./__contacts/header__contacts.css);
+@import url(./__contacts-basket/header__contacts-basket.css);
+@import url(./__contacts-icon/header__contacts-icon.css);
+@import url(./__contacts-icon/_pink/header__contacts-icon_pink.css);
+@import url(./__contacts-icon/_pink-dark/header__contacts-icon_pink-dark.css);
+@import url(./__contacts-icon/_pink-light/header__contacts-icon_pink-light.css);
+@import url(./__contacts-icon/_transparent/header__contacts-icon_transparent.css);
+@import url(./__contacts-link/header__contacts-link.css);
+@import url(./__logo/header__logo.css);
+@import url(./__logo-image/header__logo-image.css);
+@import url(./__logo-title/header__logo-title.css);
+@import url(./__menu/header__menu.css);
+@import url(./__menu-item/header__menu-item.css);
+@import url(./__menu-link/header__menu-link.css);
+@import url(./__mobile-menu-button/header__mobile-menu-button.css);
+@import url(./__mobile-menu-checkbox/header__mobile-menu-checkbox.css);
+@import url(./__mobile-menu-icon/header__mobile-menu-icon.css);
+@import url(./__nav/header__nav.css);
+
+.header {
+
+}

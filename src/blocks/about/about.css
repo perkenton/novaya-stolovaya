@@ -1,1 +1,5 @@
-.about {}
+@import url(./__image/about__image.css);
+
+.about {
+
+}
