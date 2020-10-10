@@ -1,1 +1,9 @@
-.header__menu-link_submenu {}
+.header__menu-link_submenu {
+
+}
+
+.header__menu-link_submenu:after {
+  content: url('../../../../images/arrow-down.svg');
+
+  margin-left: 8px;
+}

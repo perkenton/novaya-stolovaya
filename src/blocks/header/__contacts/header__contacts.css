@@ -1,1 +1,5 @@
-.header__contacts {}
+.header__contacts {
+  border-bottom: 1px solid #DADADA;
+  display: flex;
+  align-items: center;
+}

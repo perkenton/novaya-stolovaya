@@ -1,1 +1,15 @@
-.header__logo-title {}
+.header__logo-title {
+  width: 150px;
+  height: 46px;
+  font-family: 'Cyntho Next', Arial, Helvetica, sans-serif;
+  font-style:  normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 26px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000;
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 0;
+}

@@ -1,6 +1,11 @@
+@import url(./__container/banner__container.css);
 @import url(./__subtitle/banner__subtitle.css);
 @import url(./__title/banner__title.css);
 
 .banner {
-
+  background-image: url('../../images/banner-background-image.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding-top: 137px;
+  padding-bottom: 202px;
 }

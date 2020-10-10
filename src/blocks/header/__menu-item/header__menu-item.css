@@ -1,1 +1,11 @@
-.header__menu-item {}
+.header__menu-item {
+  font-family: 'Cyntho Next', Arial, Helvetica, sans-serif;
+  font-style:  normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #000;
+  display: inline-block;
+  margin-left: 45px;
+}

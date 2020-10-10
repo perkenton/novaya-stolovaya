@@ -1,1 +1,6 @@
-.root {}
+@import url(./__section/root__section.css);
+@import url(./__wave/root__wave.css);
+
+.root {
+
+}
