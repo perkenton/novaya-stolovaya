@@ -1,5 +1,5 @@
 .swiper__nav {
-  list-style: none;
-  padding: 0;
   margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
 }
