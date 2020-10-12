@@ -12,6 +12,7 @@
 <body>
 
 <!-- TODO перепроверить hover'ы и focus'ы -->
+<!-- TODO alts -->
 
   <div class="root">
 
@@ -203,7 +204,7 @@
       </div>
     </section>
 
-    <section class="menu root_wave-grey">
+    <section class="menu root_wave-white">
 
       <h2 class="title">Меню</h2>
       <p class="title__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
@@ -353,12 +354,16 @@
 
     </section>
 
-<!--    <section class="about">-->
-<!--      <h2 class="title"></h2>-->
-<!--      <p class="title__subtitle"></p>-->
-<!--      <button class="button button__fill-color"></button>-->
-<!--      <img src="" alt="" class="about__image">-->
-<!--    </section>-->
+    <section class="about root_wave-grey">
+      <div class="about__wrapper">
+        <div class="about__text-block">
+          <h2 class="title">О проекте</h2>
+          <p class="about__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et&nbsp;viverra justo commodo. Proin sodales pulvinar sic tempor.</p>
+          <button class="button button__fill-color">Как добраться</button>
+        </div>
+        <img src="<%=require('./images/about-image.jpg').default%>" alt="" class="about__image">
+      </div>
+    </section>
 
 <!--    <section class="eco-products">-->
 <!--      <h2 class="title"></h2>-->

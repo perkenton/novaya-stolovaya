@@ -1,5 +1,9 @@
 @import url(./__image/about__image.css);
+@import url(./__subtitle/about__subtitle.css);
+@import url(./__text-block/about__text-block.css);
+@import url(./__wrapper/about__wrapper.css);
 
 .about {
-
+  padding-top: 88px;
+  padding-bottom: 95px;
 }
