@@ -1,0 +1,7 @@
+.footer__social-icon-link {
+  text-decoration: none;
+  transition: .2s linear;
+}
+.footer__social-icon-link:hover {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}

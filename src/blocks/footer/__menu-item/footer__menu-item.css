@@ -1,1 +1,11 @@
-.footer__menu-item {}
+.footer__menu-item {
+  font-family: 'Cyntho Next', Arial, Helvetica, sans-serif;
+  font-style:  normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #fff;
+  display: inline-block;
+  margin-left: 15px;
+  margin-right: 15px;
+}
