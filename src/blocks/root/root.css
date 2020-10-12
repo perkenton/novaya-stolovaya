@@ -1,5 +1,6 @@
 @import url(./__section/root__section.css);
-@import url(./__wave/root__wave.css);
+@import url(./_wave-grey/root_wave-grey.css);
+@import url(./_wave-white/root_wave-white.css);
 
 .root {
 

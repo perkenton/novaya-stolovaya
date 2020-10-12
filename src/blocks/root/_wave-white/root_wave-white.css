@@ -1,10 +1,10 @@
-.root__wave {
+.root_wave-white {
   position: relative;
 }
 
-.root__wave::after {
+.root_wave-white::after {
   content: '';
-  background-image: url('../../../images/wave.svg');
+  background-image: url('../../../images/wave-white.svg');
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: cover;

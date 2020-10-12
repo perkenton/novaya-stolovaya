@@ -1,1 +1,6 @@
-.menu {}
+.menu {
+  text-align: center;
+  background-color: #FAFAFA;
+  padding-top: 93px;
+  padding-bottom: 121px;
+}

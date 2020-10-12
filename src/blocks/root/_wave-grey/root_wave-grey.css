@@ -1,0 +1,18 @@
+.root_wave-grey {
+  position: relative;
+}
+
+.root_wave-grey::after {
+  content: '';
+  background-image: url('../../../images/wave-grey.svg');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  width: 100%;
+  max-width: 1600px;
+  height: 77px;
+}
