@@ -51,42 +51,147 @@
       </div>
     </section>
 
-    <section class="dinners">
-      <h2 class="title"></h2>
-      <p class="title__subtitle"></p>
+    <section class="dinners "> <!--root__section-->
+      <h2 class="title">Обеды</h2>
+      <p class="title__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
 
       <div class="swiper">
+
+        <div class="swiper__arrow-prev"></div>
+        <div class="swiper__arrow-next"></div>
+
         <div class="swiper__container">
 
           <ul class="swiper__nav">
-            <li class="swiper__nav-item swiper__nav-item_is-active"></li>
-            <li class="swiper__nav-item"></li>
-            <li class="swiper__nav-item"></li>
-            <li class="swiper__nav-item"></li>
-            <li class="swiper__nav-item"></li>
-            <li class="swiper__nav-item"></li>
-            <li class="swiper__nav-item"></li>
+            <li class="swiper__nav-item swiper__nav-item_is-active">Понедельник</li>
+            <li class="swiper__nav-item">Вторник</li>
+            <li class="swiper__nav-item">Среда</li>
+            <li class="swiper__nav-item">Четверг</li>
+            <li class="swiper__nav-item">Пятница</li>
+            <li class="swiper__nav-item">Суббота</li>
+            <li class="swiper__nav-item">Воскресенье</li>
           </ul>
-
-          <div class="swiper__arrow-next"></div>
-          <div class="swiper__arrow-prev"></div>
 
           <div class="swiper__wrapper">
 
             <div class="card">
-              <div class="card__image"></div>
-              <p class="card__title"></p>
-              <div class="card__price-block">
-                <p class="card__weight"></p>
-                <p class="card__cost"></p>
+              <div class="card__image-block">
+                <img src="<%=require('./images/dinners-image.jpg').default%>" alt="Морковный крем-суп" class="card__image">
               </div>
-              <div class="card__order-block">
-                <div class="card__quantity-block">
-                  <img src="" alt="" class="card__minus">
-                    <p class="card__quantity"></p>
-                  <img src="" alt="" class="card__plus">
+              <div class="card__info-block">
+                <p class="card__title">Морковный крем-суп с&nbsp;имбирем и&nbsp;печеным нутом</p>
+                <div class="card__price-block">
+                  <p class="card__weight">170&nbsp;г</p>
+                  <p class="card__cost">2.5&nbsp;р</p>
                 </div>
-                <button class="card__button"></button>
+                <div class="card__order-block">
+                  <div class="card__quantity-block">
+                    <span class="card__plus-minus">-</span>
+                      <p class="card__quantity">2</p>
+                    <span class="card__plus-minus">+</span>
+                  </div>
+                  <button class="card__button">В корзину</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card__image-block">
+                <img src="<%=require('./images/dinners-image.jpg').default%>" alt="Морковный крем-суп" class="card__image">
+              </div>
+              <div class="card__info-block">
+                <p class="card__title">Морковный крем-суп с&nbsp;имбирем и&nbsp;печеным нутом</p>
+                <div class="card__price-block">
+                  <p class="card__weight">170&nbsp;г</p>
+                  <p class="card__cost">2.5&nbsp;р</p>
+                </div>
+                <div class="card__order-block">
+                  <div class="card__quantity-block">
+                    <span class="card__plus-minus">-</span>
+                    <p class="card__quantity">2</p>
+                    <span class="card__plus-minus">+</span>
+                  </div>
+                  <button class="card__button">В корзину</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card__image-block">
+                <img src="<%=require('./images/dinners-image.jpg').default%>" alt="Морковный крем-суп" class="card__image">
+              </div>
+              <div class="card__info-block">
+                <p class="card__title">Морковный крем-суп с&nbsp;имбирем и&nbsp;печеным нутом</p>
+                <div class="card__price-block">
+                  <p class="card__weight">170&nbsp;г</p>
+                  <p class="card__cost">2.5&nbsp;р</p>
+                </div>
+                <div class="card__order-block">
+                  <div class="card__quantity-block">
+                    <span class="card__plus-minus">-</span>
+                    <p class="card__quantity">2</p>
+                    <span class="card__plus-minus">+</span>
+                  </div>
+                  <button class="card__button">В корзину</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card__image-block">
+                <img src="<%=require('./images/dinners-image.jpg').default%>" alt="Морковный крем-суп" class="card__image">
+              </div>
+              <div class="card__info-block">
+                <p class="card__title">Морковный крем-суп с&nbsp;имбирем и&nbsp;печеным нутом</p>
+                <div class="card__price-block">
+                  <p class="card__weight">170&nbsp;г</p>
+                  <p class="card__cost">2.5&nbsp;р</p>
+                </div>
+                <div class="card__order-block">
+                  <div class="card__quantity-block">
+                    <span class="card__plus-minus">-</span>
+                    <p class="card__quantity">2</p>
+                    <span class="card__plus-minus">+</span>
+                  </div>
+                  <button class="card__button">В корзину</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card__image-block">
+                <img src="<%=require('./images/dinners-image.jpg').default%>" alt="Морковный крем-суп" class="card__image">
+              </div>
+              <div class="card__info-block">
+                <p class="card__title">Морковный крем-суп с&nbsp;имбирем и&nbsp;печеным нутом</p>
+                <div class="card__price-block">
+                  <p class="card__weight">170&nbsp;г</p>
+                  <p class="card__cost">2.5&nbsp;р</p>
+                </div>
+                <div class="card__order-block">
+                  <p class="card__notice">Только во вторник</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card__image-block">
+                <img src="<%=require('./images/dinners-image.jpg').default%>" alt="Морковный крем-суп" class="card__image">
+              </div>
+              <div class="card__info-block">
+                <p class="card__title">Морковный крем-суп с&nbsp;имбирем и&nbsp;печеным нутом</p>
+                <div class="card__price-block">
+                  <p class="card__weight">170&nbsp;г</p>
+                  <p class="card__cost">2.5&nbsp;р</p>
+                </div>
+                <div class="card__order-block">
+                  <div class="card__quantity-block">
+                    <span class="card__plus-minus">-</span>
+                    <p class="card__quantity">2</p>
+                    <span class="card__plus-minus">+</span>
+                  </div>
+                  <button class="card__button">В корзину</button>
+                </div>
               </div>
             </div>
 
@@ -96,106 +201,106 @@
       </div>
     </section>
 
-    <section class="menu">
-      <h2 class="title"></h2>
-      <p class="title__subtitle"></p>
+<!--    <section class="menu">-->
+<!--      <h2 class="title"></h2>-->
+<!--      <p class="title__subtitle"></p>-->
 
-      <div class="swiper__container">
+<!--      <div class="swiper__container">-->
 
-        <ul class="swiper__nav">
-          <li class="swiper__nav-item"></li>
-          <li class="swiper__nav-item"></li>
-          <li class="swiper__nav-item"></li>
-          <li class="swiper__nav-item"></li>
-          <li class="swiper__nav-item"></li>
-          <li class="swiper__nav-item"></li>
-          <li class="swiper__nav-item"></li>
-        </ul>
+<!--        <ul class="swiper__nav">-->
+<!--          <li class="swiper__nav-item"></li>-->
+<!--          <li class="swiper__nav-item"></li>-->
+<!--          <li class="swiper__nav-item"></li>-->
+<!--          <li class="swiper__nav-item"></li>-->
+<!--          <li class="swiper__nav-item"></li>-->
+<!--          <li class="swiper__nav-item"></li>-->
+<!--          <li class="swiper__nav-item"></li>-->
+<!--        </ul>-->
 
-        <div class="swiper__arrow-next"></div>
-        <div class="swiper__arrow-prev"></div>
+<!--        <div class="swiper__arrow-next"></div>-->
+<!--        <div class="swiper__arrow-prev"></div>-->
 
-        <div class="swiper__wrapper">
+<!--        <div class="swiper__wrapper">-->
 
-          <div class="card">
-            <div class="card__image"></div>
-            <p class="card__title"></p>
-            <div class="card__price-block">
-              <p class="card__weight"></p>
-              <p class="card__cost"></p>
-            </div>
-            <div class="card__order-block">
-              <div class="card__quantity-block">
-                <img src="" alt="" class="card__minus">
-                <p class="card__quantity"></p>
-                <img src="" alt="" class="card__plus">
-              </div>
-              <button class="card__button"></button>
-            </div>
-          </div>
+<!--          <div class="card">-->
+<!--            <div class="card__image"></div>-->
+<!--            <p class="card__title"></p>-->
+<!--            <div class="card__price-block">-->
+<!--              <p class="card__weight"></p>-->
+<!--              <p class="card__cost"></p>-->
+<!--            </div>-->
+<!--            <div class="card__order-block">-->
+<!--              <div class="card__quantity-block">-->
+<!--                <img src="" alt="" class="card__minus">-->
+<!--                <p class="card__quantity"></p>-->
+<!--                <img src="" alt="" class="card__plus">-->
+<!--              </div>-->
+<!--              <button class="card__button"></button>-->
+<!--            </div>-->
+<!--          </div>-->
 
-        </div>
+<!--        </div>-->
 
-      </div>
-    </section>
+<!--      </div>-->
+<!--    </section>-->
 
-    <section class="about">
-      <h2 class="title"></h2>
-      <p class="title__subtitle"></p>
-      <button class="button button__fill-color"></button>
-      <img src="" alt="" class="about__image">
-    </section>
+<!--    <section class="about">-->
+<!--      <h2 class="title"></h2>-->
+<!--      <p class="title__subtitle"></p>-->
+<!--      <button class="button button__fill-color"></button>-->
+<!--      <img src="" alt="" class="about__image">-->
+<!--    </section>-->
 
-    <section class="eco-products">
-      <h2 class="title"></h2>
-      <div class="eco-products__cards-list"></div>
-      <button class="button button__fill-color"></button>
-    </section>
+<!--    <section class="eco-products">-->
+<!--      <h2 class="title"></h2>-->
+<!--      <div class="eco-products__cards-list"></div>-->
+<!--      <button class="button button__fill-color"></button>-->
+<!--    </section>-->
 
-    <section class="comments">
-      <h2 class="title"></h2>
+<!--    <section class="comments">-->
+<!--      <h2 class="title"></h2>-->
 
-      <div class="swiper__container">
-        <div class="swiper__wrapper">
-          <div class="comments__card">
-            <p class="comments__card-text"></p>
-            <p class="comments__card-author"></p>
-            <ul class="comments__card-rating">
-              <li class="comments__card-rating-item comments__card-rating-item_color"></li>
-              <li class="comments__card-rating-item comments__card-rating-item_color"></li>
-              <li class="comments__card-rating-item comments__card-rating-item_color"></li>
-              <li class="comments__card-rating-item comments__card-rating-item_color"></li>
-              <li class="comments__card-rating-item comments__card-rating-item_grey"></li>
-            </ul>
-          </div>
-        </div>
+<!--      <div class="swiper__container">-->
+<!--        <div class="swiper__wrapper">-->
+<!--          <div class="comments__card">-->
+<!--            <p class="comments__card-text"></p>-->
+<!--            <p class="comments__card-author"></p>-->
+<!--            <ul class="comments__card-rating">-->
+<!--              <li class="comments__card-rating-item comments__card-rating-item_color"></li>-->
+<!--              <li class="comments__card-rating-item comments__card-rating-item_color"></li>-->
+<!--              <li class="comments__card-rating-item comments__card-rating-item_color"></li>-->
+<!--              <li class="comments__card-rating-item comments__card-rating-item_color"></li>-->
+<!--              <li class="comments__card-rating-item comments__card-rating-item_grey"></li>-->
+<!--            </ul>-->
+<!--          </div>-->
+<!--        </div>-->
 
-        <div class="swiper__arrow-next"></div>
-        <div class="swiper__arrow-prev"></div>
-      </div>
+<!--        <div class="swiper__arrow-next"></div>-->
+<!--        <div class="swiper__arrow-prev"></div>-->
+<!--      </div>-->
 
-      <button class="button button__fill-color"></button>
-      <button class="button button__no-fill"></button>
+<!--      <button class="button button__fill-color"></button>-->
+<!--      <button class="button button__no-fill"></button>-->
 
-    </section>
+<!--    </section>-->
 
-    <footer class="footer">
-      <img src="" alt="" class="footer__logo">
-      <ul class="footer__menu">
-        <li class="footer__menu-item"><a href="" class="footer__menu-link"></a></li>
-        <li class="footer__menu-item"><a href="" class="footer__menu-link"></a></li>
-        <li class="footer__menu-item"><a href="" class="footer__menu-link"></a></li>
-        <li class="footer__menu-item"><a href="" class="footer__menu-link"></a></li>
-        <li class="footer__menu-item"><a href="" class="footer__menu-link"></a></li>
-        <li class="footer__menu-item"><a href="" class="footer__menu-link"></a></li>
-      </ul>
-      <img src="" alt="" class="footer__social-icon">
+<!--    <footer class="footer">-->
+<!--      <img src="" alt="" class="footer__logo">-->
+<!--      <ul class="footer__menu">-->
+<!--        <li class="footer__menu-item"><a href="" class="footer__menu-link"></a></li>-->
+<!--        <li class="footer__menu-item"><a href="" class="footer__menu-link"></a></li>-->
+<!--        <li class="footer__menu-item"><a href="" class="footer__menu-link"></a></li>-->
+<!--        <li class="footer__menu-item"><a href="" class="footer__menu-link"></a></li>-->
+<!--        <li class="footer__menu-item"><a href="" class="footer__menu-link"></a></li>-->
+<!--        <li class="footer__menu-item"><a href="" class="footer__menu-link"></a></li>-->
+<!--      </ul>-->
+<!--      <img src="" alt="" class="footer__social-icon">-->
 
-      <div class="footer__contacts">
-        <p class="footer__contacts-block-left"></p>
-        <p class="footer__contacts-block-right"></p>
-      </div>
-    </footer>
+<!--      <div class="footer__contacts">-->
+<!--        <p class="footer__contacts-block-left"></p>-->
+<!--        <p class="footer__contacts-block-right"></p>-->
+<!--      </div>-->
+<!--    </footer>-->
 
   </div>
 

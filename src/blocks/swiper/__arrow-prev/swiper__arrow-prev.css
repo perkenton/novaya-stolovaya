@@ -1,1 +1,22 @@
-.swiper__arrow-prev {}
+.swiper__arrow-prev {
+  width: 14px;
+  height: 28px;
+  background-image: url('../../../images/arrow-prev.svg');
+  background-repeat: no-repeat;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: -60px;
+  transform: translateY(-50%);
+  transition: .2s linear;
+}
+
+.swiper__arrow-prev:hover {
+  transform: translateY(-50%) scale(1.3);
+}
+
+@media (max-width: 1350px) {
+  .swiper__arrow-prev {
+    display: none;
+  }
+}

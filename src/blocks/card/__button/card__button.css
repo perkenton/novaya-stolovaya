@@ -1,1 +1,25 @@
-.card__button {}
+.card__button {
+  font-family: 'Cyntho Next', Arial, Helvetica, sans-serif;
+  font-style:  normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 5px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-right: 16px;
+  padding-left: 16px;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.25);
+  border: none;
+  cursor: pointer;
+  background-color: #F4A17B;
+  margin-left: auto;
+  transition: .2s linear;
+}
+
+.card__button:hover {
+  background-color: #F1813D;
+}

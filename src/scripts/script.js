@@ -1,26 +1,32 @@
 import '../pages/index.css';
 
-// import Swiper, { Pagination } from 'swiper';
-// Swiper.use([Pagination]);
+import Swiper, { Navigation, Pagination } from 'swiper';
+Swiper.use([Navigation, Pagination]);
 
 'use strict';
 
-// (function() {
-//
-//   new Swiper('.reviews__swiper-container', {
-//     init: true,
-//     loop: true,
-//     grabCursor: true,
-//     wrapperClass: 'reviews__swiper-wrapper',
-//     slideClass: 'reviews__card',
-//
-//     pagination: {
-//       el: '.reviews__pagination',
-//       type: 'bullets',
-//       clickable: true,
-//       bulletClass: 'reviews__pagination-item',
-//       bulletActiveClass: 'reviews__pagination-item_active',
-//     },
-//   })
-//
-// })();
+(function() {
+
+  new Swiper('.swiper__container', {
+    init: true,
+    // direction: 'horizontal',
+    loop: true,
+    slidesPerView: 'auto',
+    // spaceBetween: 30,
+    wrapperClass: 'swiper__wrapper',
+    slideClass: 'card',
+
+    // pagination: {
+    //   el: '.swiper__nav',
+    //   clickable: true,
+    //   bulletClass: 'swiper__nav-item',
+    //   bulletActiveClass: 'swiper__nav-item_is-active',
+    // },
+
+    navigation: {
+      nextEl: '.swiper__arrow-next',
+      prevEl: '.swiper__arrow-prev',
+    },
+  })
+
+})();

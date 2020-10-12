@@ -1,1 +1,22 @@
-.swiper__arrow-next {}
+.swiper__arrow-next {
+  width: 16px;
+  height: 30px;
+  background-image: url('../../../images/arrow-next.svg');
+  background-repeat: no-repeat;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  right: -48px;
+  transform: translateY(-50%);
+  transition: .2s linear;
+}
+
+.swiper__arrow-next:hover {
+  transform: translateY(-50%) scale(1.3);
+}
+
+@media (max-width: 1350px) {
+  .swiper__arrow-next {
+    display: none;
+  }
+}

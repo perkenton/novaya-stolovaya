@@ -1,1 +1,5 @@
-.card__quantity-block {}
+.card__quantity-block {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}

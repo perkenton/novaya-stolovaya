@@ -1,5 +1,13 @@
 @import url(./__subtitle/title__subtitle.css);
 
 .title {
-
+  font-family: 'Cyntho Next', Arial, Helvetica, sans-serif;
+  font-style:  normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: #383838;
+  margin-top: 0;
+  margin-bottom: 12px;
 }

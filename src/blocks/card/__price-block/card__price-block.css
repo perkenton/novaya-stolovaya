@@ -1,1 +1,7 @@
-.card__price-block {}
+.card__price-block {
+  margin-top: 17px;
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

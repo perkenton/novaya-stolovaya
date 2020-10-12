@@ -1,1 +1,21 @@
-.swiper__nav-item {}
+.swiper__nav-item {
+  font-family: 'Cyntho Next', Arial, Helvetica, sans-serif;
+  font-style:  normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #9E9E9E;
+  display: inline-block;
+  margin-right: 84px;
+  cursor: pointer;
+  transition: .2s linear;
+}
+
+.swiper__nav-item:last-child {
+  margin-right: 0;
+}
+
+.swiper__nav-item:hover {
+  color: #000;
+}

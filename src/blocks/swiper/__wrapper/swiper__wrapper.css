@@ -1,1 +1,7 @@
-.swiper__wrapper {}
+.swiper__wrapper {
+  position: relative;
+  height: 440px;
+  display: flex;
+
+  z-index: 1;
+}

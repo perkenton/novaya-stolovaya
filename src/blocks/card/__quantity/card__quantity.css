@@ -1,1 +1,12 @@
-.card__quantity {}
+.card__quantity {
+  font-family: 'Cyntho Next', Arial, Helvetica, sans-serif;
+  font-style:  normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #383838;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 4px;
+  margin-right: 2px;
+}
