@@ -1,1 +1,4 @@
-.comments__card-rating-item_grey {}
+.comments__card-rating-item_grey {
+  background-image: url('../../../../images/comments-rating-grey.svg');
+  background-repeat: no-repeat;
+}

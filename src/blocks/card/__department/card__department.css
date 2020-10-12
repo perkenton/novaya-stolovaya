@@ -1,0 +1,11 @@
+.card__department {
+  font-family: 'Cyntho Next', Arial, Helvetica, sans-serif;
+  font-style:  normal;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 12px;
+  color: #5F5F5F;
+  text-align: left;
+  margin-top: -6px;
+  margin-bottom: 5px;
+}

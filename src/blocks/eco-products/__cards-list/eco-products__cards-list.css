@@ -1,1 +1,10 @@
-.eco-products__cards-list {}
+.eco-products__cards-list {
+  max-width: 1170px;
+  margin-top: 84px;
+  margin-bottom: 53px;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 30px;
+}

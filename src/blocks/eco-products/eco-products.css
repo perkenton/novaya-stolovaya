@@ -1,5 +1,8 @@
 @import url(./__cards-list/eco-products__cards-list.css);
 
 .eco-products {
-
+  text-align: center;
+  background-color: #fafafa;
+  padding-top: 130px;
+  padding-bottom: 130px;
 }

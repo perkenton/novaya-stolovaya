@@ -9,7 +9,6 @@ Swiper.use([Navigation, Pagination]);
 
   new Swiper('.swiper__container', {
     init: true,
-    // direction: 'horizontal',
     loop: true,
     slidesPerView: 'auto',
     // spaceBetween: 30,

@@ -1,3 +1,5 @@
+@import url(./__arrow-next/comments__arrow-next.css);
+@import url(./__arrow-prev/comments__arrow-prev.css);
 @import url(./__card/comments__card.css);
 @import url(./__card-author/comments__card-author.css);
 @import url(./__card-rating/comments__card-rating.css);
@@ -5,7 +7,11 @@
 @import url(./__card-rating-item/_color/comments__card-rating-item_color.css);
 @import url(./__card-rating-item/_grey/comments__card-rating-item_grey.css);
 @import url(./__card-text/comments__card-text.css);
+@import url(./__swiper-container/comments__swiper-container.css);
+@import url(./__swiper-wrapper/comments__swiper-wrapper.css);
 
 .comments {
-
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 90px;
 }

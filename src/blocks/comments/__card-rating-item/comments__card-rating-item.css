@@ -1,1 +1,10 @@
-.comments__card-rating-item {}
+.comments__card-rating-item {
+  width: 13px;
+  height: 14px;
+  display: inline-block;
+  margin-right: 4px;
+}
+
+.comments__card-rating-item:last-child {
+  margin-right: 0;
+}

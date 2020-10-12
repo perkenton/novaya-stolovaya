@@ -1,1 +1,10 @@
-.button__no-fill {}
+.button__no-fill {
+  background-color: transparent;
+  color: #383838;
+  border: 2px solid #F4A17B;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 46px;
+  padding-left: 46px;
+  margin-left: 16px;
+}

@@ -1,3 +1,7 @@
 .card__image-block {
-
+  width: 270px;
+  height: 270px;
+  border-radius: 5px 5px 0 0;
+  position: relative;
+  overflow: hidden;
 }

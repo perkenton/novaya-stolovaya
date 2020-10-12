@@ -1,1 +1,12 @@
-.comments__card-text {}
+.comments__card-text {
+  max-width: 578px;
+  font-family: 'Cyntho Next', Arial, Helvetica, sans-serif;
+  font-style:  normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #383838;
+  margin-top: 0;
+  margin-bottom: 36px;
+}
