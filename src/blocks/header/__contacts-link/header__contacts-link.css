@@ -2,3 +2,7 @@
   max-height: 58px;
   text-decoration: none;
 }
+
+.header__contacts-link:focus {
+  outline: 1px dotted #F1813D;
+}

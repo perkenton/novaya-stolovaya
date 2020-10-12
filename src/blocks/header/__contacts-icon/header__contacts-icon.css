@@ -4,4 +4,10 @@
   padding-bottom: 20px;
   padding-left: 20px;
   padding-right: 20px;
+  transition: .2s linear;
+}
+
+/* TODO уточнить эффект при hover'е */
+.header__contacts-icon:hover {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
