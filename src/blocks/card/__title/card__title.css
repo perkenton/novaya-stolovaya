@@ -1,4 +1,5 @@
 .card__title {
+  min-height: 34px;
   font-family: 'Cyntho Next', Arial, Helvetica, sans-serif;
   font-style:  normal;
   font-weight: 400;
@@ -8,4 +9,9 @@
   text-align: left;
   margin-top: 0;
   margin-bottom: 0;
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow-y: hidden;
+  word-wrap: break-word;
 }
