@@ -43,3 +43,20 @@
     padding-bottom: 0;
   }
 }
+
+@media (max-width: 480px) {
+  .header__submenu-item {
+    font-size: 8px;
+    line-height: 10px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+  }
+
+  .header__submenu-item::after {
+    width: 98px;
+  }
+
+  .header__submenu-item:first-child {
+    margin-top: 16px;
+  }
+}

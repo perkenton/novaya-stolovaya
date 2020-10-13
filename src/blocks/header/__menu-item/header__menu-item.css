@@ -37,3 +37,23 @@
     content: none;
   }
 }
+
+@media (max-width: 480px) {
+  .header__mobile-menu-checkbox:checked ~ .header__menu .header__menu-item {
+    font-size: 12px;
+    line-height: 14px;
+    padding-top: 13px;
+    padding-bottom: 15px;
+  }
+
+  .header__mobile-menu-checkbox:checked ~ .header__menu .header__menu-item::after {
+    content: '';
+    position: absolute;
+    width: 184px;
+    height: 1px;
+    background-color: #E3E3E3;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}

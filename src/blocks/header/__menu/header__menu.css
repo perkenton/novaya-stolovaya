@@ -25,14 +25,13 @@
     padding-bottom: 16px;
     z-index: 10;
   }
+}
 
-  /*.header__mobile-menu-checkbox:checked ~ .header__menu::after {*/
-  /*  content: '';*/
-  /*  position: absolute;*/
-  /*  background-color: rgba(0,0,0,.5);*/
-  /*  top: 69px;*/
-  /*  left: 0;*/
-  /*  right: 0;*/
-  /*  bottom: 0;*/
-  /*}*/
+@media (max-width: 480px) {
+  .header__mobile-menu-checkbox:checked ~ .header__menu {
+    width: 200px;
+    top: 60px;
+    right: 14px;
+    padding-bottom: 8px;
+  }
 }

@@ -11,3 +11,13 @@
 .header__contacts-icon:hover {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
+
+@media (max-width: 480px) {
+  .header__contacts-icon {
+    height: 14px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}

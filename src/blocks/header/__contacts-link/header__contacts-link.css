@@ -6,3 +6,9 @@
 .header__contacts-link:focus {
   outline: 1px dotted #F1813D;
 }
+
+@media (max-width: 480px) {
+  .header__contacts-link {
+    max-height: 45px;
+  }
+}
