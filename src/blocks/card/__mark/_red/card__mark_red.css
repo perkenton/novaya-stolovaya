@@ -3,7 +3,7 @@
   background-color: #F16254;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 767px) {
   .card__mark_red {
     max-width: 52px;
   }

@@ -9,3 +9,10 @@
   margin-top: 0;
   margin-bottom: 6px;
 }
+
+@media (max-width: 767px) {
+  .comments__card-author {
+    font-size: 10px;
+    line-height: 12px;
+  }
+}

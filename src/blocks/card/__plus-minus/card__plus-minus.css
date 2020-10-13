@@ -13,7 +13,7 @@
   color: #F1813D;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 767px) {
   .card__plus-minus {
     font-size: 28px;
     line-height: 35px;

@@ -3,7 +3,7 @@
   margin-bottom: 8px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 767px) {
   .card__price-block_margin-less {
     margin-top: 8px;
     margin-bottom: 8px;

@@ -10,7 +10,7 @@
   margin-bottom: 5px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 767px) {
   .card__department {
     font-size: 7px;
     line-height: 8px;

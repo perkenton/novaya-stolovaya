@@ -28,7 +28,7 @@
   outline: none;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 767px) {
   .card__button {
     font-size: 8px;
     line-height: 10px;

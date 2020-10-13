@@ -14,8 +14,33 @@
 .comments__card::before {
   content: '';
   position: absolute;
-  width: 707px;
-  height: 251px;
+  width: calc(100% - 40px);
+  height: calc(100% - 40px);
   border-radius: 5px;
   border: 1px solid #F4A17B;
+  opacity: .3;
+}
+
+@media (max-width: 840px) {
+  .comments__card {
+    width: 738px;
+    height: 303px;
+  }
+}
+
+@media (max-width: 840px) {
+  .comments__card {
+    left: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .comments__card {
+    height: 218px;
+  }
+
+  .comments__card::before {
+    width: calc(100% - 20px);
+    height: calc(100% - 20px);
+  }
 }

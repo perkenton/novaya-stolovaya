@@ -2,6 +2,11 @@
   position: relative;
   height: 440px;
   display: flex;
-
   z-index: 1;
+}
+
+@media (max-width: 767px) {
+  .swiper__wrapper {
+    height: 350px;
+  }
 }

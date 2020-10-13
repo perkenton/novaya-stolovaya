@@ -3,3 +3,10 @@
   padding-top: 56px;
   padding-bottom: 74px;
 }
+
+@media (max-width: 767px) {
+  .dinners {
+    padding-top: 24px;
+    padding-bottom: 41px;
+  }
+}

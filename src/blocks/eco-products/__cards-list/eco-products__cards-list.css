@@ -21,11 +21,24 @@
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 767px) {
   .eco-products__cards-list {
+    grid-template-columns: repeat(4, 1fr);
     column-gap: 12px;
     row-gap: 24px;
     padding-left: 14px;
     padding-right: 14px;
+  }
+}
+
+@media (max-width: 620px) {
+  .eco-products__cards-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 470px) {
+  .eco-products__cards-list {
+    grid-template-columns: repeat(2, 1fr);
   }
 }

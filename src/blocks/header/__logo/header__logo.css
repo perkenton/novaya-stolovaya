@@ -3,3 +3,10 @@
   margin-bottom: 14px;
   margin-right: auto;
 }
+
+@media (max-width: 995px) {
+  .header__logo {
+    margin-top: 6px;
+    margin-bottom: 12px;
+  }
+}

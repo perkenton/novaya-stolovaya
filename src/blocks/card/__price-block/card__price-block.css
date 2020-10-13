@@ -6,7 +6,7 @@
   align-items: center;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 767px) {
   .card__price-block {
     margin-top: 19px;
     margin-bottom: 8px;

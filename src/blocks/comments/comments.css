@@ -15,3 +15,17 @@
   padding-top: 80px;
   padding-bottom: 90px;
 }
+
+@media (max-width: 768px) {
+  .comments {
+    padding-top: 43px;
+    padding-bottom: 115px;
+  }
+}
+
+@media (max-width: 767px) {
+  .comments {
+    padding-top: 36px;
+    padding-bottom: 59px;
+  }
+}

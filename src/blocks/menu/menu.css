@@ -4,3 +4,10 @@
   padding-top: 93px;
   padding-bottom: 121px;
 }
+
+@media (max-width: 767px) {
+  .menu {
+    padding-top: 24px;
+    padding-bottom: 41px;
+  }
+}

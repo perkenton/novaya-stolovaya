@@ -1,0 +1,19 @@
+.root_dark-wrapper {
+  position: fixed;
+  background-color: rgba(41, 41, 41, 0.45);
+  filter: blur(10px);
+  backdrop-filter: blur(10px);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  transition: .2s linear;
+  display: none;
+}
+
+@media (max-width: 995px) {
+  .header__mobile-menu-checkbox:checked + .root_dark-wrapper {
+    display: block;
+  }
+}

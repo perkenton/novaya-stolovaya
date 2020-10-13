@@ -4,6 +4,7 @@
 @import url(./__container/_background-grey/swiper__container_background-grey.css);
 @import url(./__container/_background-white/swiper__container_background-white.css);
 @import url(./__nav/swiper__nav.css);
+@import url(./__nav/_temporary-hardcode/swiper__nav_temporary-hardcode.css);
 @import url(./__nav-item/swiper__nav-item.css);
 @import url(./__nav-item/_is-active/swiper__nav-item_is-active.css);
 @import url(./__wrapper/swiper__wrapper.css);
@@ -14,4 +15,10 @@
   position: relative;
   margin-left: auto;
   margin-right: auto;
+}
+
+@media (max-width: 320px) {
+  .swiper {
+    margin-top: 24px;
+  }
 }

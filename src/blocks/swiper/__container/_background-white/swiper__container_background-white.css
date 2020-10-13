@@ -12,3 +12,9 @@
   background: linear-gradient(90deg,hsla(0,0%,100%,0),#fff);
   z-index: 5;
 }
+
+@media (max-width: 1199px) {
+  .swiper__container_background-white:after {
+    content: none;
+  }
+}

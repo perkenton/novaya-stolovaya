@@ -33,6 +33,7 @@
           </div>
 
           <input type="checkbox" id="checkbox" class="header__mobile-menu-checkbox">
+          <div class="root_dark-wrapper"></div>
           <label for="checkbox" class="header__mobile-menu-button"><span class="header__mobile-menu-icon"></span></label>
 
           <ul class="header__menu">
@@ -86,9 +87,9 @@
         <div class="swiper__container swiper__container_background-white">
 
           <div class="swiper__nav">
-            <span class="swiper__nav-item swiper__nav-item_is-active">Понедельник</span>
+            <span class="swiper__nav-item">Понедельник</span>
             <span class="swiper__nav-item">Вторник</span>
-            <span class="swiper__nav-item">Среда</span>
+            <span class="swiper__nav-item swiper__nav-item_is-active">Среда</span>
             <span class="swiper__nav-item">Четверг</span>
             <span class="swiper__nav-item">Пятница</span>
             <span class="swiper__nav-item">Суббота</span>
@@ -236,10 +237,10 @@
 
         <div class="swiper__container swiper__container_background-grey">
 
-          <div class="swiper__nav">
+          <div class="swiper__nav swiper__nav_temporary-hardcode">
             <span class="swiper__nav-item swiper__nav-item_is-active">Десерты</span>
-            <span class="swiper__nav-item">Хлеб и выпечка</span>
-            <span class="swiper__nav-item">Соусы и намазки</span>
+            <span class="swiper__nav-item">Хлеб&nbsp;и&nbsp;выпечка</span>
+            <span class="swiper__nav-item">Соусы&nbsp;и&nbsp;намазки</span>
             <span class="swiper__nav-item">Напитки</span>
             <span class="swiper__nav-item">Завтраки</span>
           </div>
@@ -578,6 +579,8 @@
       </div>
       <button class="button button__fill-color">Посмотреть все</button>
     </section>
+
+<!--    <div style="left: calc(50% - 1px); width: 1px; height: 200px; background-color: #000; position: fixed; top: 50px; z-index: 100;"></div>-->
 
     <section class="comments">
       <h2 class="title">Отзывы</h2>

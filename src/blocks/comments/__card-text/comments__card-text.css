@@ -10,3 +10,18 @@
   margin-top: 0;
   margin-bottom: 36px;
 }
+
+@media (max-width: 767px) {
+  .comments__card-text {
+    max-width: 234px;
+    font-size: 10px;
+    line-height: 12px;
+    margin-bottom: 14px;
+    max-height: 220px;
+    -webkit-line-clamp: 10;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow-y: hidden;
+    word-wrap: break-word;
+  }
+}

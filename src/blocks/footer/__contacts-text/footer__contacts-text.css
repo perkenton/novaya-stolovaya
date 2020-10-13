@@ -3,8 +3,22 @@
   font-style:  normal;
   font-weight: 700;
   font-size: 14px;
-  line-height: 9px;
+  line-height: 14px;
   color: #fff;
   margin-top: 0;
   margin-bottom: 9px;
+}
+
+@media (max-width: 425px) {
+  .footer__contacts-text {
+    font-size: 10px;
+    line-height: 12px;
+  }
+}
+
+@media (max-width: 375px) {
+  .footer__contacts-text {
+    font-size: 8px;
+    line-height: 10px;
+  }
 }

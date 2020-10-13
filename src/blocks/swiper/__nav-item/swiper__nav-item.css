@@ -17,3 +17,11 @@
 .swiper__nav-item:hover {
   color: #000;
 }
+
+@media (max-width: 767px) {
+  .swiper__nav-item {
+    font-size: 10px;
+    line-height: 12px;
+    margin-right: 30px;
+  }
+}

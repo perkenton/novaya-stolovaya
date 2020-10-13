@@ -6,3 +6,22 @@
   display: flex;
   justify-content: space-between;
 }
+
+@media (max-width: 1199px) {
+  .footer__contacts {
+    width: calc(100% - 28px);
+  }
+}
+
+@media (max-width: 768px) {
+  .footer__contacts {
+    margin-top: 78px;
+    padding-top: 22px;
+  }
+}
+
+@media (max-width: 375px) {
+  .footer__contacts {
+    margin-top: 31px;
+  }
+}

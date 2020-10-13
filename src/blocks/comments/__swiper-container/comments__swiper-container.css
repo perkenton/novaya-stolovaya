@@ -1,6 +1,6 @@
 .comments__swiper-container {
   max-width: 804px;
-  height: 320px;
+  height: 330px;
   display: flex;
   position: relative;
   overflow: hidden;
@@ -8,4 +8,18 @@
   margin-bottom: 51px;
   margin-left: auto;
   margin-right: auto;
+}
+
+@media (max-width: 840px) {
+  .comments__swiper-container {
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .comments__swiper-container {
+    height: 240px;
+    width: calc(100% - 14px);
+    margin-top: 44px;
+  }
 }

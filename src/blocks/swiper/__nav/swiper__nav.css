@@ -3,3 +3,17 @@
   display: flex;
   justify-content: space-between;
 }
+
+@media (max-width: 425px) {
+  .swiper__nav {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 320px) {
+  .swiper__nav {
+    margin-bottom: 30px;
+    left: -22%;
+    position: relative;
+  }
+}

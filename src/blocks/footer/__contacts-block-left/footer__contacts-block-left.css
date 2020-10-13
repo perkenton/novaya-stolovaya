@@ -1,3 +1,15 @@
 .footer__contacts-block-left {
   text-align: left;
 }
+
+@media (max-width: 1199px) {
+  .footer__contacts-block-left {
+    max-width: 320px;
+  }
+}
+
+@media (max-width: 425px) {
+  .footer__contacts-block-left {
+    max-width: 124px;
+  }
+}

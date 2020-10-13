@@ -1,4 +1,12 @@
 .header__nav {
   display: flex;
   align-items: center;
+  position: relative;
+}
+
+@media (max-width: 1180px) {
+  .header__nav {
+    padding-left: 14px;
+    padding-right: 14px;
+  }
 }

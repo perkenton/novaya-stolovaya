@@ -12,3 +12,9 @@
 /*  content: url('../../../../images/arrow-down-pink.svg');*/
 /*  margin-left: 8px;*/
 /*}*/
+
+@media (max-width: 995px) {
+  .header__menu-link_submenu {
+    margin-left: 20px;
+  }
+}

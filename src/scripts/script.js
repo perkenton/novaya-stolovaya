@@ -17,7 +17,15 @@ Swiper.use([Navigation, Pagination]);
       slidesPerView: 'auto',
       wrapperClass: 'swiper__wrapper',
       slideClass: 'card',
-      spaceBetween: 30,
+
+      breakpoints: {
+        768: {
+          spaceBetween: 30,
+        },
+        320: {
+          spaceBetween: 11,
+        },
+      },
 
       navigation: {
         nextEl: el.querySelector('.swiper__arrow-next'),
@@ -30,15 +38,28 @@ Swiper.use([Navigation, Pagination]);
     init: true,
     loop: true,
     slidesPerView: 1,
-    spaceBetween: 40,
-    width: 746,
     wrapperClass: 'comments__swiper-wrapper',
     slideClass: 'comments__card',
+
+    breakpoints: {
+      840: {
+        width: 746,
+        spaceBetween: 40,
+      },
+      768: {
+        width: 738,
+        spaceBetween: 28,
+      },
+      320: {
+        width: 290,
+        spaceBetween: 28,
+      },
+    },
 
     navigation: {
       nextEl: '.comments__arrow-next',
       prevEl: '.comments__arrow-prev',
     },
-  })
+  });
 
 })();

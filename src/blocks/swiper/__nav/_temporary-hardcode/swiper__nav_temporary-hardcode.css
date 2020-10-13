@@ -1,0 +1,9 @@
+.swiper__nav_temporary-hardcode {
+
+}
+
+@media (max-width: 320px) {
+  .swiper__nav_temporary-hardcode {
+    left: 0;
+  }
+}

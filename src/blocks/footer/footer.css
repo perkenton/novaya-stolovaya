@@ -19,3 +19,10 @@
   padding-top: 42px;
   padding-bottom: 40px;
 }
+
+@media (max-width: 425px) {
+  .footer {
+    padding-top: 19px;
+    padding-bottom: 20px;
+  }
+}

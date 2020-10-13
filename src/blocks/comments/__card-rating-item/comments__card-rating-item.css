@@ -8,3 +8,9 @@
 .comments__card-rating-item:last-child {
   margin-right: 0;
 }
+
+@media (max-width: 767px) {
+  .comments__card-rating-item {
+    margin-right: 0;
+  }
+}
