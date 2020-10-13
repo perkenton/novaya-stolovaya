@@ -1,8 +1,22 @@
 .about__wrapper {
   max-width: 1170px;
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
   margin-left: auto;
   margin-right: auto;
+}
+
+@media (max-width: 1199px) {
+  .about__wrapper {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 640px) {
+  .about__wrapper {
+    padding-left: 14px;
+    padding-right: 14px;
+  }
 }

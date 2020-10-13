@@ -4,3 +4,12 @@
   padding-left: 17px;
   padding-right: 16px;
 }
+
+@media (max-width: 600px) {
+  .card__info-block {
+    padding-top: 3px;
+    padding-bottom: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+}

@@ -2,3 +2,9 @@
   max-width: 53px;
   background-color: #8ABEC9;
 }
+
+@media (max-width: 600px) {
+  .card__mark_blue {
+    max-width: 37px;
+  }
+}

@@ -17,6 +17,7 @@ Swiper.use([Navigation, Pagination]);
       slidesPerView: 'auto',
       wrapperClass: 'swiper__wrapper',
       slideClass: 'card',
+      spaceBetween: 30,
 
       navigation: {
         nextEl: el.querySelector('.swiper__arrow-next'),

@@ -16,3 +16,10 @@
   max-width: 1600px;
   height: 77px;
 }
+
+@media (min-width: 1600px) {
+  .root_wave-white::after {
+    height: 100px;
+    max-width: none;
+  }
+}

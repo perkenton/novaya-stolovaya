@@ -9,3 +9,12 @@
   margin-top: 0;
   margin-bottom: 19px;
 }
+
+@media (max-width: 425px) {
+  .banner__title {
+    max-width: 167px;
+    font-size: 22px;
+    line-height: 26px;
+    margin-bottom: 6px;
+  }
+}

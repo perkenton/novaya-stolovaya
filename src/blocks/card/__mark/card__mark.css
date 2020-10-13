@@ -13,3 +13,10 @@
   padding-bottom: 5px;
   z-index: 5;
 }
+
+@media (max-width: 600px) {
+  .card__mark {
+    font-size: 8px;
+    line-height: 10px;
+  }
+}

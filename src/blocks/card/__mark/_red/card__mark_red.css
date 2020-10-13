@@ -2,3 +2,9 @@
   max-width: 71px;
   background-color: #F16254;
 }
+
+@media (max-width: 600px) {
+  .card__mark_red {
+    max-width: 52px;
+  }
+}

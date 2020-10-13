@@ -1,5 +1,5 @@
 .banner__subtitle {
-  width: 478px;
+  max-width: 478px;
   font-family: 'Cyntho Next', Arial, Helvetica, sans-serif;
   font-style:  normal;
   font-weight: 300;
@@ -8,4 +8,19 @@
   color: #000;
   margin-top: 0;
   margin-bottom: 31px;
+}
+
+@media (max-width: 768px) {
+  .banner__subtitle {
+    max-width: 350px;
+  }
+}
+
+@media (max-width: 425px) {
+  .banner__subtitle {
+    max-width: 157px;
+    font-size: 10px;
+    line-height: 12px;
+    margin-bottom: 20px;
+  }
 }

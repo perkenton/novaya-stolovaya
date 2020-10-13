@@ -10,3 +10,10 @@
   margin-left: 4px;
   margin-right: 2px;
 }
+
+@media (max-width: 600px) {
+  .card__quantity {
+    font-size: 15px;
+    line-height: 18px;
+  }
+}

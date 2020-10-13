@@ -23,13 +23,29 @@
   height: 425px;
   box-sizing: border-box;
   border-radius: 5px;
+  background-color: #fff;
   box-shadow: 0px 0px 20px rgba(167, 167, 167, 0.26);
   position: relative;
-  margin-right: 30px;
+  margin-left: auto;
+  margin-right: auto;
   transition: .2s linear;
 }
 
 /* TODO уточнить у дизайнера сохраняется ли изначальный box-shadow при hover'е */
 .card:hover {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+@media (max-width: 600px) {
+  .card {
+    max-width: 140px;
+    height: 257px;
+  }
+}
+
+@media (max-width: 335px) {
+  .card {
+    margin-left: 0;
+    margin-right: 0;
+  }
 }

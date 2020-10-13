@@ -8,3 +8,10 @@
   margin-top: 12px;
   margin-bottom: 0;
 }
+
+@media (max-width: 600px) {
+  .card__notice {
+    font-size: 10px;
+    line-height: 12px;
+  }
+}

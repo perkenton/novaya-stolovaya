@@ -7,3 +7,12 @@
   padding-right: 46px;
   padding-left: 46px;
 }
+
+@media (max-width: 600px) {
+  .button__fill-color {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 14px;
+    padding-left: 14px;
+  }
+}

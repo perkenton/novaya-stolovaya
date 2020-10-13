@@ -6,6 +6,22 @@
   background-image: url('../../images/banner-background-image.jpg');
   background-repeat: no-repeat;
   background-position: center center;
+  background-size: cover;
   padding-top: 137px;
   padding-bottom: 190px;
+}
+
+@media (max-width: 768px) {
+  .banner {
+    background-position: 65%;
+    padding-top: 162px;
+    padding-bottom: 162px;
+  }
+}
+
+@media (max-width: 425px) {
+  .banner {
+    padding-top: 53px;
+    padding-bottom: 70px;
+  }
 }

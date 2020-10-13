@@ -5,3 +5,10 @@
   justify-content: space-between;
   align-items: center;
 }
+
+@media (max-width: 600px) {
+  .card__price-block {
+    margin-top: 19px;
+    margin-bottom: 8px;
+  }
+}

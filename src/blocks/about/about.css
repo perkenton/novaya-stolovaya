@@ -7,3 +7,17 @@
   padding-top: 88px;
   padding-bottom: 95px;
 }
+
+@media (max-width: 1199px) {
+  .about {
+    padding-top: 49px;
+    padding-bottom: 90px;
+  }
+}
+
+@media (max-width: 375px) {
+  .about {
+    padding-top: 24px;
+    padding-bottom: 50px;
+  }
+}

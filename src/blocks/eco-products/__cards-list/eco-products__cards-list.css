@@ -6,5 +6,26 @@
   margin-right: auto;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  row-gap: 30px;
+  grid-gap: 30px;
+}
+
+@media (max-width: 1199px) {
+  .eco-products__cards-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 900px) {
+  .eco-products__cards-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .eco-products__cards-list {
+    column-gap: 12px;
+    row-gap: 24px;
+    padding-left: 14px;
+    padding-right: 14px;
+  }
 }

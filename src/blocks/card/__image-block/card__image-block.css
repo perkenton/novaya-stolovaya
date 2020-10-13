@@ -5,3 +5,10 @@
   position: relative;
   overflow: hidden;
 }
+
+@media (max-width: 600px) {
+  .card__image-block {
+    width: 140px;
+    height: 140px;
+  }
+}

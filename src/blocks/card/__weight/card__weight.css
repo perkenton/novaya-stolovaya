@@ -8,3 +8,10 @@
   margin-top: 0;
   margin-bottom: 0;
 }
+
+@media (max-width: 600px) {
+  .card__weight {
+    font-size: 10px;
+    line-height: 12px;
+  }
+}
