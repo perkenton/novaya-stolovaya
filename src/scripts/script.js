@@ -7,24 +7,36 @@ Swiper.use([Navigation, Pagination]);
 
 (function() {
 
-  new Swiper('.swiper__container', {
+  const swipers = document.querySelectorAll('.swiper');
+
+  swipers.forEach((el) => {
+
+    new Swiper(el.querySelector('.swiper__container'), {
+      init: true,
+      loop: true,
+      slidesPerView: 'auto',
+      wrapperClass: 'swiper__wrapper',
+      slideClass: 'card',
+
+      navigation: {
+        nextEl: el.querySelector('.swiper__arrow-next'),
+        prevEl: el.querySelector('.swiper__arrow-prev'),
+      },
+    });
+  });
+
+  const commentsSwiper = new Swiper('.comments__swiper-container', {
     init: true,
     loop: true,
-    slidesPerView: 'auto',
-    // spaceBetween: 30,
-    wrapperClass: 'swiper__wrapper',
-    slideClass: 'card',
-
-    // pagination: {
-    //   el: '.swiper__nav',
-    //   clickable: true,
-    //   bulletClass: 'swiper__nav-item',
-    //   bulletActiveClass: 'swiper__nav-item_is-active',
-    // },
+    slidesPerView: 1,
+    spaceBetween: 40,
+    width: 746,
+    wrapperClass: 'comments__swiper-wrapper',
+    slideClass: 'comments__card',
 
     navigation: {
-      nextEl: '.swiper__arrow-next',
-      prevEl: '.swiper__arrow-prev',
+      nextEl: '.comments__arrow-next',
+      prevEl: '.comments__arrow-prev',
     },
   })
 
