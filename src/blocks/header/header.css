@@ -18,7 +18,16 @@
 @import url(./__mobile-menu-checkbox/header__mobile-menu-checkbox.css);
 @import url(./__mobile-menu-icon/header__mobile-menu-icon.css);
 @import url(./__nav/header__nav.css);
+@import url(./__submenu/header__submenu.css);
+@import url(./__submenu/_menu/header__submenu_menu.css);
+@import url(./__submenu/_shop/header__submenu_shop.css);
+@import url(./__submenu-item/header__submenu-item.css);
+@import url(./__submenu-link/header__submenu-link.css);
+@import url(./__wrapper/header__wrapper.css);
 
 .header {
-
+  position: relative;
+  background-color: #fff;
+  box-shadow: 0px 0px 20px rgba(244, 161, 123, 0.18);
+  z-index: 34;
 }

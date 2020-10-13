@@ -5,6 +5,7 @@
 .header__menu-link_submenu::after {
   content: url('../../../../images/arrow-down.svg');
   margin-left: 8px;
+  transition: .2s linear;
 }
 
 .header__menu-link_submenu:hover::after {

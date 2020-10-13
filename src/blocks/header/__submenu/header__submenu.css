@@ -1,0 +1,25 @@
+.header__submenu {
+  width: 179px;
+  text-align: center;
+  list-style: none;
+  position: absolute;
+  padding: 0;
+  z-index: -1;
+  background-color: #fff;
+  border-radius: 0 0 5px 5px;
+  box-shadow: 0px 0px 20px rgba(244, 161, 123, 0.18);
+  top: 16px;
+  visibility: hidden;
+  opacity: 0;
+  transition: .2s linear;
+}
+
+a#submenu-menu:hover + .header__submenu {
+  visibility: visible;
+  opacity: 1;
+}
+
+a#submenu-shop:hover + .header__submenu {
+  visibility: visible;
+  opacity: 1;
+}

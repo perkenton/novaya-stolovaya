@@ -12,40 +12,60 @@
 <body>
 
 <!-- TODO перепроверить hover'ы и focus'ы -->
-<!-- TODO alts -->
+<!-- TODO alts, hrefs -->
 <!-- TODO проверить ширину-высоту button'ов -->
 <!-- TODO выпадающее меню, слайдер в отзывах, адаптив, бургер-меню -->
 
   <div class="root">
 
-    <header class="header root__section">
-
-      <div class="header__contacts">
-        <a href="tel:+375333750760" class="header__contacts-phone">+375 (33) 375-07-60</a>
-        <a href="" class="header__contacts-link"><img src="<%=require('./images/icon-instagram-pink.svg').default%>" alt="Логотип инстаграма" class="header__contacts-icon header__contacts-icon_transparent"></a>
-        <a href="" class="header__contacts-link"><img src="<%=require('./images/icon-search.svg').default%>" alt="Иконка поиска" class="header__contacts-icon header__contacts-icon_pink-light"></a>
-        <a href="" class="header__contacts-link"><img src="<%=require('./images/icon-user.svg').default%>" alt="Иконка личного кабинета" class="header__contacts-icon header__contacts-icon_pink"></a>
-        <a href="" class="header__contacts-link"><img src="<%=require('./images/icon-cart.svg').default%>" alt="Иконка корзины" class="header__contacts-icon header__contacts-icon_pink-dark"></a>
-      </div>
-
-      <nav class="header__nav">
-        <div class="header__logo">
-          <img src="<%=require('./images/logo-black.svg').default%>" alt="Логотип Новой столовой" class="header__logo-image">
-          <h1 class="header__logo-title">Новая столовая</h1>
+    <header class="header">
+      <div class="header__wrapper">
+        <div class="header__contacts">
+          <a href="tel:+375333750760" class="header__contacts-phone">+375 (33) 375-07-60</a>
+          <a href="" class="header__contacts-link"><img src="<%=require('./images/icon-instagram-pink.svg').default%>" alt="Логотип инстаграма" class="header__contacts-icon header__contacts-icon_transparent"></a>
+          <a href="" class="header__contacts-link"><img src="<%=require('./images/icon-search.svg').default%>" alt="Иконка поиска" class="header__contacts-icon header__contacts-icon_pink-light"></a>
+          <a href="" class="header__contacts-link"><img src="<%=require('./images/icon-user.svg').default%>" alt="Иконка личного кабинета" class="header__contacts-icon header__contacts-icon_pink"></a>
+          <a href="" class="header__contacts-link"><img src="<%=require('./images/icon-cart.svg').default%>" alt="Иконка корзины" class="header__contacts-icon header__contacts-icon_pink-dark"></a>
         </div>
 
-        <input type="checkbox" id="checkbox" class="header__mobile-menu-checkbox">
-        <label for="checkbox" class="header__mobile-menu-button"><span class="header__mobile-menu-icon"></span></label>
+        <nav class="header__nav">
+          <div class="header__logo">
+            <img src="<%=require('./images/logo-black.svg').default%>" alt="Логотип Новой столовой" class="header__logo-image">
+            <h1 class="header__logo-title">Новая столовая</h1>
+          </div>
 
-        <ul class="header__menu">
-          <li class="header__menu-item"><a href="" class="header__menu-link header__menu-link_submenu">Меню</a></li>
-          <li class="header__menu-item"><a href="" class="header__menu-link header__menu-link_submenu">Магазин</a></li>
-          <li class="header__menu-item"><a href="" class="header__menu-link">Подписка</a></li>
-          <li class="header__menu-item"><a href="" class="header__menu-link">Доставка</a></li>
-          <li class="header__menu-item"><a href="" class="header__menu-link">Партнерам</a></li>
-          <li class="header__menu-item"><a href="" class="header__menu-link">Контакты</a></li>
-        </ul>
-      </nav>
+          <input type="checkbox" id="checkbox" class="header__mobile-menu-checkbox">
+          <label for="checkbox" class="header__mobile-menu-button"><span class="header__mobile-menu-icon"></span></label>
+
+          <ul class="header__menu">
+            <li class="header__menu-item"><a href="" class="header__menu-link header__menu-link_submenu" id="submenu-menu">Меню</a>
+              <ul class="header__submenu header__submenu_menu">
+                <li class="header__submenu-item"><a href="" class="header__submenu-link">Завтраки</a></li>
+                <li class="header__submenu-item"><a href="" class="header__submenu-link">Обеды</a></li>
+                <li class="header__submenu-item"><a href="" class="header__submenu-link">Десерты</a></li>
+                <li class="header__submenu-item"><a href="" class="header__submenu-link">Хлеб и выпечка</a></li>
+                <li class="header__submenu-item"><a href="" class="header__submenu-link">Соусы и намазки</a></li>
+                <li class="header__submenu-item"><a href="" class="header__submenu-link">Напитки</a></li>
+              </ul>
+            </li>
+
+            <li class="header__menu-item"><a href="" class="header__menu-link header__menu-link_submenu" id="submenu-shop">Магазин</a>
+              <ul class="header__submenu header__submenu_shop">
+                <li class="header__submenu-item"><a href="" class="header__submenu-link">Завтраки</a></li>
+                <li class="header__submenu-item"><a href="" class="header__submenu-link">Обеды</a></li>
+                <li class="header__submenu-item"><a href="" class="header__submenu-link">Десерты</a></li>
+                <li class="header__submenu-item"><a href="" class="header__submenu-link">Хлеб и выпечка</a></li>
+                <li class="header__submenu-item"><a href="" class="header__submenu-link">Соусы и намазки</a></li>
+                <li class="header__submenu-item"><a href="" class="header__submenu-link">Напитки</a></li>
+              </ul>
+            </li>
+            <li class="header__menu-item"><a href="" class="header__menu-link">Подписка</a></li>
+            <li class="header__menu-item"><a href="" class="header__menu-link">Доставка</a></li>
+            <li class="header__menu-item"><a href="" class="header__menu-link">Партнерам</a></li>
+            <li class="header__menu-item"><a href="" class="header__menu-link">Контакты</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
     <section class="banner root_wave-white">

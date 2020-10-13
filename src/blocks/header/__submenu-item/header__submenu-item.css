@@ -1,0 +1,30 @@
+.header__submenu-item {
+  font-family: 'Cyntho Next', Arial, Helvetica, sans-serif;
+  font-style:  normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  position: relative;
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+
+.header__submenu-item:first-child {
+  margin-top: 46px;
+}
+
+.header__submenu-item::after {
+  content: '';
+  position: absolute;
+  width: 150px;
+  height: 1px;
+  background-color: #E3E3E3;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.header__submenu-item:last-child::after {
+  content: none;
+}

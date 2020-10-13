@@ -1,0 +1,8 @@
+.header__submenu-link {
+  text-decoration: none;
+  color: #383838;
+}
+
+.header__submenu-link:hover {
+  font-weight: 500;
+}
