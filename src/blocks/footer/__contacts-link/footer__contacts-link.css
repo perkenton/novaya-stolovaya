@@ -7,3 +7,7 @@
 .footer__contacts-link:hover {
   color: #e0e0e0;
 }
+
+.footer__contacts-link:focus {
+  outline: 1px dotted #fff;
+}
