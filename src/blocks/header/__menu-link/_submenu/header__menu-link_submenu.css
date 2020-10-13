@@ -8,7 +8,7 @@
   transition: .2s linear;
 }
 
-.header__menu-link_submenu:hover::after {
-  content: url('../../../../images/arrow-down-pink.svg');
-  margin-left: 8px;
-}
+/*.header__menu-link_submenu:hover::after {*/
+/*  content: url('../../../../images/arrow-down-pink.svg');*/
+/*  margin-left: 8px;*/
+/*}*/
