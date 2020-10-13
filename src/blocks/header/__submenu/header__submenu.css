@@ -14,12 +14,36 @@
   transition: .2s linear;
 }
 
-a#submenu-menu:hover + .header__submenu {
+li#submenu-menu:hover .header__submenu {
   visibility: visible;
   opacity: 1;
 }
 
-a#submenu-shop:hover + .header__submenu {
+li#submenu-shop:hover .header__submenu {
   visibility: visible;
   opacity: 1;
+}
+
+@media (max-width: 995px) {
+  li#submenu-menu:hover .header__submenu {
+    position: relative;
+    top: 0;
+    box-shadow: none;
+    left: 50%;
+    transform: translatex(-50%);
+    transition: none;
+    visibility: visible;
+    opacity: 1;
+  }
+
+  li#submenu-shop:hover .header__submenu {
+    position: relative;
+    top: 0;
+    box-shadow: none;
+    left: 50%;
+    transform: translatex(-50%);
+    transition: none;
+    visibility: visible;
+    opacity: 1;
+  }
 }

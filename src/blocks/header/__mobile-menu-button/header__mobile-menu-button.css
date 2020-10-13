@@ -13,9 +13,6 @@
   .header__mobile-menu-button {
     display: flex;
   }
-  .header__mobile-menu-checkbox:checked ~ .header__mobile-menu-button {
-    /*margin-top: 24px;*/
-  }
 }
 
 /*@media (max-width: 600px) {*/

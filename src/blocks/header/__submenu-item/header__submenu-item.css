@@ -28,3 +28,18 @@
 .header__submenu-item:last-child::after {
   content: none;
 }
+
+@media (max-width: 995px) {
+  .header__submenu-item {
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  .header__submenu-item:first-child {
+    margin-top: 22px;
+  }
+
+  .header__submenu-item:last-child {
+    padding-bottom: 0;
+  }
+}
