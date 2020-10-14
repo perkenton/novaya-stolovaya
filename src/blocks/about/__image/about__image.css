@@ -15,6 +15,12 @@
   }
 }
 
+@media (max-width: 600px) {
+  .about__image {
+    max-width: 450px;
+  }
+}
+
 @media (max-width: 500px) {
   .about__image {
     max-width: 400px;

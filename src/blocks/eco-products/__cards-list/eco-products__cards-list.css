@@ -9,7 +9,7 @@
   grid-gap: 30px;
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 1300px) {
   .eco-products__cards-list {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -31,7 +31,7 @@
   }
 }
 
-@media (max-width: 620px) {
+@media (max-width: 650px) {
   .eco-products__cards-list {
     grid-template-columns: repeat(3, 1fr);
   }
