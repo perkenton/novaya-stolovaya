@@ -84,6 +84,7 @@ module.exports = {
       canPrint: true
     }),
     new HtmlWebpackPlugin({
+      minify: false,
       inject: false,
       template: './src/index.html',
       chunks: ['index'],
